@@ -2,39 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Sunny's Portfolio Design System - Warm, people-centered, optimistic
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors - warm and inviting */
+    --background: 35 40% 97%;
+    --foreground: 25 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card system with subtle warmth */
+    --card: 40 30% 99%;
+    --card-foreground: 25 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 30% 99%;
+    --popover-foreground: 25 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Sun-inspired primary palette */
+    --primary: 45 95% 60%;
+    --primary-foreground: 25 15% 15%;
+    --primary-soft: 48 85% 85%;
+    --primary-glow: 42 100% 70%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm secondary tones */
+    --secondary: 35 25% 92%;
+    --secondary-foreground: 25 15% 25%;
+    --secondary-warm: 28 35% 88%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted warm grays with personality */
+    --muted: 35 20% 95%;
+    --muted-foreground: 25 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Warm accent colors */
+    --accent: 25 45% 90%;
+    --accent-foreground: 25 15% 15%;
+    --accent-peach: 15 65% 85%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Gentle contrast colors */
+    --destructive: 0 70% 65%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and inputs with warmth */
+    --border: 35 20% 88%;
+    --input: 35 25% 92%;
+    --ring: 45 95% 60%;
+
+    /* Beautiful gradients for sunny warmth */
+    --gradient-sunny: linear-gradient(135deg, hsl(45 95% 60%), hsl(42 100% 70%));
+    --gradient-warm: linear-gradient(180deg, hsl(35 40% 97%), hsl(40 30% 99%));
+    --gradient-peach: linear-gradient(135deg, hsl(15 65% 85%), hsl(25 45% 90%));
+    --gradient-glow: linear-gradient(135deg, hsl(48 85% 85%), hsl(45 95% 60%) 50%, hsl(42 100% 70%));
+
+    /* Elegant shadows with warmth */
+    --shadow-soft: 0 2px 8px hsl(25 15% 15% / 0.08);
+    --shadow-warm: 0 4px 16px hsl(45 95% 60% / 0.12);
+    --shadow-glow: 0 8px 32px hsl(42 100% 70% / 0.2);
+
+    /* Smooth transitions */
+    --transition-gentle: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 
     --radius: 0.5rem;
 
@@ -101,5 +128,66 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  /* Sunny gradient backgrounds */
+  .bg-gradient-sunny {
+    background: var(--gradient-sunny);
+  }
+  
+  .bg-gradient-warm {
+    background: var(--gradient-warm);
+  }
+  
+  .bg-gradient-peach {
+    background: var(--gradient-peach);
+  }
+  
+  .bg-gradient-glow {
+    background: var(--gradient-glow);
+  }
+
+  /* Elegant shadows */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-warm {
+    box-shadow: var(--shadow-warm);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Smooth animations */
+  .transition-gentle {
+    transition: var(--transition-gentle);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  /* Story-telling animations */
+  .story-reveal {
+    @apply opacity-0 translate-y-6 transition-smooth;
+  }
+  
+  .story-reveal.revealed {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Sunny glow effect */
+  .glow-on-hover {
+    @apply transition-gentle;
+  }
+  
+  .glow-on-hover:hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
   }
 }
