@@ -58,71 +58,78 @@ const Projects = () => {
           
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <Card 
+              <div 
                 key={index} 
-                className="p-8 shadow-soft hover:shadow-warm transition-smooth glow-on-hover"
+                className="group relative bg-gradient-to-br from-card via-card to-accent-peach rounded-xl p-1 shadow-glow hover:shadow-[0_20px_40px_hsl(42_100%_70%_/_0.3)] transition-all duration-500 hover:-translate-y-2"
               >
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex items-start space-x-4">
-                    <div className="text-4xl">{project.icon}</div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <h3 className="text-2xl font-bold text-primary">
-                          {project.title}
-                        </h3>
-                        <Badge 
-                          variant="secondary"
-                          className={`text-xs ${
-                            project.status === 'Live' ? 'bg-green-100 text-green-800' :
-                            project.status === 'In Development' ? 'bg-blue-100 text-blue-800' :
-                            project.status === 'Prototype' ? 'bg-yellow-100 text-yellow-800' :
-                            'bg-gray-100 text-gray-800'
-                          }`}
-                        >
-                          {project.status}
-                        </Badge>
-                      </div>
-                      <p className="text-lg font-semibold text-accent-foreground mb-3">
-                        {project.category} • {project.year}
-                      </p>
+                {/* Inner card content */}
+                <div className="bg-card rounded-lg p-8 h-full relative overflow-hidden">
+                  {/* Decorative gradient overlay */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-glow opacity-20 rounded-full blur-xl group-hover:opacity-30 transition-opacity"></div>
+                  
+                  {/* Project header */}
+                  <div className="relative z-10 mb-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="text-5xl group-hover:scale-110 transition-transform duration-300">{project.icon}</div>
+                      <Badge 
+                        variant="secondary"
+                        className={`text-xs font-semibold px-3 py-1 ${
+                          project.status === 'Live' ? 'bg-emerald-100 text-emerald-700 border border-emerald-200' :
+                          project.status === 'In Development' ? 'bg-sky-100 text-sky-700 border border-sky-200' :
+                          project.status === 'Prototype' ? 'bg-amber-100 text-amber-700 border border-amber-200' :
+                          'bg-slate-100 text-slate-700 border border-slate-200'
+                        }`}
+                      >
+                        {project.status}
+                      </Badge>
                     </div>
+                    
+                    <h3 className="text-2xl font-bold text-primary mb-2 group-hover:text-primary-glow transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wider">
+                      {project.category} • {project.year}
+                    </p>
+                  </div>
+                  
+                  {/* Project description */}
+                  <p className="text-foreground/80 mb-6 leading-relaxed line-clamp-3">
+                    {project.description}
+                  </p>
+                  
+                  {/* Skills tags */}
+                  <div className="flex flex-wrap gap-2 mb-8">
+                    {project.skills.map((skill, skillIndex) => (
+                      <Badge 
+                        key={skillIndex}
+                        variant="outline"
+                        className="bg-primary-soft/50 text-primary border-primary/20 hover:bg-primary-soft transition-colors text-xs"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                  
+                  {/* Action buttons */}
+                  <div className="flex gap-3 relative z-10">
+                    <Button 
+                      size="sm"
+                      className="bg-gradient-sunny hover:shadow-glow transition-all duration-300 text-foreground font-medium hover:scale-105"
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                    <Button 
+                      variant="ghost"
+                      size="sm"
+                      className="text-primary hover:bg-primary-soft/30 transition-all duration-300 hover:scale-105"
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      Case Study
+                    </Button>
                   </div>
                 </div>
-                
-                <p className="text-foreground/80 mb-4 leading-relaxed">
-                  {project.description}
-                </p>
-                
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.skills.map((skill, skillIndex) => (
-                    <Badge 
-                      key={skillIndex}
-                      variant="secondary"
-                      className="bg-primary-soft text-primary border-0"
-                    >
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
-                
-                <div className="flex gap-3">
-                  <Button 
-                    size="sm"
-                    className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
-                  </Button>
-                  <Button 
-                    variant="outline"
-                    size="sm"
-                    className="border-primary text-primary hover:bg-primary-soft transition-gentle"
-                  >
-                    <Github className="w-4 h-4 mr-2" />
-                    Case Study
-                  </Button>
-                </div>
-              </Card>
+              </div>
             ))}
           </div>
           
