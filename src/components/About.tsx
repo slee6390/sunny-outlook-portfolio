@@ -50,24 +50,30 @@ const About = () => {
               </div>
             </Card>
             
-            {/* Key strengths cards */}
-            <div className="grid md:grid-cols-3 gap-6">
+            {/* Experience cards */}
+            <div className="grid md:grid-cols-2 gap-6">
               <Card className="p-6 text-center shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
-                <div className="text-3xl mb-4">🔬</div>
-                <h3 className="text-xl font-semibold mb-2 text-primary">Research & Analysis</h3>
-                <p className="text-muted-foreground">From neuroscience to strategy, diving deep to understand what really matters</p>
+                <div className="text-3xl mb-4">🧠</div>
+                <h3 className="text-xl font-semibold mb-2 text-primary">Neuroscience Research</h3>
+                <p className="text-muted-foreground">Exploring autism & schizophrenia to understand how people experience the world</p>
               </Card>
               
               <Card className="p-6 text-center shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
-                <div className="text-3xl mb-4">🤝</div>
-                <h3 className="text-xl font-semibold mb-2 text-primary">People-Centered Design</h3>
-                <p className="text-muted-foreground">Creating systems and strategies that put human experience first</p>
+                <div className="text-3xl mb-4">🏥</div>
+                <h3 className="text-xl font-semibold mb-2 text-primary">Healthcare Work</h3>
+                <p className="text-muted-foreground">Witnessing firsthand the diverse ways people navigate health and healing</p>
               </Card>
               
               <Card className="p-6 text-center shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
-                <div className="text-3xl mb-4">💡</div>
-                <h3 className="text-xl font-semibold mb-2 text-primary">Strategic Storytelling</h3>
-                <p className="text-muted-foreground">Shaping narratives where people see themselves and find meaning</p>
+                <div className="text-3xl mb-4">📚</div>
+                <h3 className="text-xl font-semibold mb-2 text-primary">Teaching</h3>
+                <p className="text-muted-foreground">Learning that complex problems can spark clarity with the right approach</p>
+              </Card>
+              
+              <Card className="p-6 text-center shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
+                <div className="text-3xl mb-4">🚀</div>
+                <h3 className="text-xl font-semibold mb-2 text-primary">Strategy & Product</h3>
+                <p className="text-muted-foreground">Building a comprehensive toolkit in strategy, product, and technology</p>
               </Card>
             </div>
           </div>
