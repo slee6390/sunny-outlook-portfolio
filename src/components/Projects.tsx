@@ -9,8 +9,8 @@ const Projects = () => {
   
   const projects = [
     {
-      icon: "🧠",
-      title: "NeuroInsight Platform",
+      icon: "📊",
+      title: "Learning Analytics Intern - completed",
       category: "Research & Analytics",
       description: "A comprehensive platform for analyzing behavioral patterns and improving patient outcomes in neuroscience research",
       skills: ["Data Analysis", "UX Research", "Healthcare Systems", "Patient Experience"],
