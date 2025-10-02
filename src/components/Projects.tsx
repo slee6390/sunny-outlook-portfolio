@@ -12,7 +12,7 @@ const Projects = () => {
       icon: "📊",
       title: "Learning Analytics Intern",
       category: "Data Analytics",
-      description: "Analyzed onboarding data and client feedback to streamline training, inform dashboard development, and improve healthcare client experiences",
+      description: "Analyzed onboarding data and client feedback to streamline training, inform dashboard development, and improve healthcare experiences",
       skills: ["Data Analysis", "Product Strategy", "Healthcare Systems", "Patient Experience"],
       status: "Completed",
       year: "2025"
@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       icon: "🤝",
-      title: "Bridging Generations",
+      title: "Academic Teaching",
       category: "Product Strategy",
       description: "An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups",
       skills: ["UX Research", "Product Management", "Game-Based Learning", "Social Connection"],
