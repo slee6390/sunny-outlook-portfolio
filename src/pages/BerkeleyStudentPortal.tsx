@@ -55,9 +55,8 @@ const BerkeleyStudentPortal = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">Project Overview</h2>
             <p className="text-lg leading-relaxed text-foreground mb-4">
-              Redesigned UC Berkeley's student portal with AI-driven navigation to simplify workflows 
-              and better align with student needs. The project focused on creating an intuitive, 
-              personalized experience that reduces friction and enhances accessibility.
+              Explored how students and stakeholders perceive AI in UC Berkeley’s student portal, 
+              identifying pain points, opportunities, and expectations to guide future system improvements.
             </p>
           </Card>
 
@@ -65,9 +64,8 @@ const BerkeleyStudentPortal = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">My Role</h2>
             <p className="text-lg leading-relaxed text-foreground">
-              Experience designer and product strategist leading the redesign of Berkeley's student portal, 
-              integrating AI-driven navigation, and ensuring the system aligned with student workflows 
-              and institutional goals.
+              Product Manager and product strategist leading qualitative studies, 
+              synthesizing perspectives, and communicating actionable AI insights to CalCentral’s engineering team.
             </p>
           </Card>
 
@@ -79,26 +77,24 @@ const BerkeleyStudentPortal = () => {
                 <h3 className="text-xl font-semibold mb-3 text-foreground">User Research</h3>
                 <p className="text-foreground/80 leading-relaxed">
                   Conducted extensive interviews and usability testing with students to identify pain points 
-                  in the existing portal. Mapped student journeys across academic, administrative, and social 
-                  touchpoints to understand where the system failed to meet needs.
+                  in the existing portal. Used reaction cards to capture how students responded to potential 
+                  AI features, surfacing both excitement and skepticism.
                 </p>
               </div>
               
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">AI-Driven Navigation</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Integrated intelligent navigation that learns from student behavior and priorities, 
-                  surfacing relevant resources and reducing time spent searching. Designed contextual 
-                  prompts and personalized dashboards that adapt to individual student needs.
+                  Explored AI’s role in simplifying complex processes, such as automating routine queries, 
+                  surfacing context-specific resources, and tailoring information to individual student journeys.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">System Redesign</h3>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Usability Testing</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Restructured information architecture and visual hierarchy to align with student mental models. 
-                  Simplified complex workflows around registration, financial aid, and course planning while 
-                  maintaining institutional requirements and compliance.
+                 Ran cognitive walkthroughs and usability tests to evaluate how students navigated 
+                  existing workflows and where AI could reduce friction.
                 </p>
               </div>
             </div>
@@ -111,19 +107,20 @@ const BerkeleyStudentPortal = () => {
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Reduced average task completion time by 40% through streamlined workflows and AI-powered suggestions.
+                  Presented synthesized student insights and AI expectations directly to CalCentral’s 
+                  engineering team to inform product direction.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Increased student satisfaction scores by implementing personalized navigation and contextual help.
+                  Identified high-impact opportunities for AI to support navigation, task completion, and information retrieval.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Created a scalable design system that can adapt to changing student needs and institutional priorities.
+                  Built alignment across stakeholders by translating technical possibilities into clear, student-focused outcomes.
                 </p>
               </li>
             </ul>
@@ -133,10 +130,10 @@ const BerkeleyStudentPortal = () => {
           <Card className="p-8 bg-gradient-peach shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">Impact</h2>
             <p className="text-lg leading-relaxed text-foreground">
-              This redesign demonstrated how AI integration and human-centered design can transform complex 
-              institutional systems into intuitive, accessible experiences. By prioritizing student needs while 
-              respecting organizational constraints, the project created a foundation for ongoing innovation in 
-              educational technology.
+             In this redesign, I shifted the conversation on CalCentral from “how to add AI” to 
+              “how to make AI meaningful for students.” By centering real user voices and balancing 
+              stakeholder priorities, this project demonstrated the value of research-driven strategy 
+              in shaping not just features, but institutional trust in technology.
             </p>
           </Card>
         </div>
