@@ -33,7 +33,7 @@ const Projects = () => {
       description: "An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups",
       skills: ["UX Research", "Product Management", "Game-Based Learning", "Social Connection"],
       status: "Completed",
-      year: "2023"
+      year: "2024"
     },
     {
       icon: "🧬",
@@ -42,7 +42,7 @@ const Projects = () => {
       description: "Comprehensive research project examining schizophrenia through multiple methodologies and developing accessible digital resources",
       skills: ["Qualitative Research", "Quantitative Research", "Website Development", "Mental Health"],
       status: "Completed",
-      year: "2023"
+      year: "2022-2024"
     }
   ];
 
