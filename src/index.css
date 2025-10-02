@@ -51,7 +51,7 @@ All colors MUST be HSL.
     /* Beautiful gradients for sunny warmth */
     --gradient-sunny: linear-gradient(135deg, hsl(45 95% 60%), hsl(42 100% 70%));
     --gradient-warm: linear-gradient(180deg, hsl(35 40% 97%), hsl(40 30% 99%));
-    --gradient-peach: linear-gradient(135deg, hsl(15 65% 85%), hsl(25 45% 90%));
+    --gradient-peach: linear-gradient(135deg, hsl(40 60% 88%), hsl(45 55% 92%));
     --gradient-glow: linear-gradient(135deg, hsl(48 85% 85%), hsl(45 95% 60%) 50%, hsl(42 100% 70%));
 
     /* Elegant shadows with warmth */
