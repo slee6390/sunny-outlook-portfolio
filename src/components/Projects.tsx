@@ -18,8 +18,8 @@ const Projects = () => {
       year: "2024"
     },
     {
-      icon: "🏥",
-      title: "CareConnect Hub",
+      icon: "🎓",
+      title: "Berkeley Student Portal",
       category: "Healthcare Strategy",
       description: "Streamlining patient-provider communication through human-centered design and strategic workflow optimization",
       skills: ["Service Design", "Stakeholder Mapping", "Process Strategy", "Communication Systems"],
