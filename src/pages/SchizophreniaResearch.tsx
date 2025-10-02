@@ -61,6 +61,15 @@ const SchizophreniaResearch = () => {
             </p>
           </Card>
 
+          {/* My Role */}
+          <Card className="p-8 mb-8 shadow-soft">
+            <h2 className="text-2xl font-bold mb-4 text-primary">My Role</h2>
+            <p className="text-lg leading-relaxed text-foreground">
+              [Add description of your role in this project - what responsibilities you had, 
+              what you contributed, and what you learned from the experience]
+            </p>
+          </Card>
+
           {/* Research approach */}
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-6 text-primary">Research Approach</h2>
