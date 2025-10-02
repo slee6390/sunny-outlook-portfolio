@@ -15,7 +15,7 @@ const Projects = () => {
       description: "Analyzed onboarding data and client feedback to streamline training, inform dashboard development, and improve healthcare client experiences",
       skills: ["Data Analysis", "Product Strategy", "Healthcare Systems", "Patient Experience"],
       status: "Completed",
-      year: "2024"
+      year: "2025"
     },
     {
       icon: "🎓",
