@@ -33,13 +33,13 @@ const Projects = () => {
       year: "2023"
     },
     {
-      icon: "🚀",
-      title: "Strategy Canvas Tool",
-      category: "Product Strategy",
-      description: "An interactive tool for mapping people-centered strategies and creating compelling organizational narratives",
-      skills: ["Product Strategy", "User Experience", "Systems Thinking", "Narrative Design"],
-      status: "Prototype",
-      year: "2024"
+      icon: "🧬",
+      title: "Schizophrenia Research",
+      category: "Research & Development",
+      description: "Comprehensive research project examining schizophrenia through multiple methodologies and developing accessible digital resources",
+      skills: ["Qualitative Research", "Quantitative Research", "Website Development", "Mental Health"],
+      status: "Completed",
+      year: "2023"
     }
   ];
 
