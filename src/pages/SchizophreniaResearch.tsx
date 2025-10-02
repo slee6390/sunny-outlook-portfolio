@@ -30,7 +30,7 @@ const SchizophreniaResearch = () => {
                   Schizophrenia Research
                 </h1>
                 <p className="text-xl text-muted-foreground mt-2">
-                  Research & Development • 2023
+                  Research & Development • 2022 - 2024
                 </p>
               </div>
             </div>
