@@ -1,9 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  const navigate = useNavigate();
+  
   const projects = [
     {
       icon: "🧠",
@@ -106,21 +109,26 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button 
-                    size="sm"
-                    className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
-                  </Button>
-                  <Button 
-                    variant="outline"
-                    size="sm"
-                    className="border-primary text-primary hover:bg-primary-soft transition-gentle"
-                  >
-                    <Github className="w-4 h-4 mr-2" />
-                    Case Study
-                  </Button>
+                  {project.title === "Schizophrenia Research" ? (
+                    <Button 
+                      size="sm"
+                      className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
+                      onClick={() => navigate("/projects/schizophrenia-research")}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  ) : (
+                    <>
+                      <Button 
+                        size="sm"
+                        className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        View Project
+                      </Button>
+                    </>
+                  )}
                 </div>
               </Card>
             ))}
