@@ -20,11 +20,11 @@ const Projects = () => {
     {
       icon: "🎓",
       title: "Berkeley Student Portal",
-      category: "Healthcare Strategy",
-      description: "Streamlining patient-provider communication through human-centered design and strategic workflow optimization",
-      skills: ["Service Design", "Stakeholder Mapping", "Process Strategy", "Communication Systems"],
-      status: "In Development",
-      year: "2024"
+      category: "Experience Design",
+      description: "Redesigned UC Berkeley’s student portal with AI-driven navigation to simplify workflows and better align with student needs.",
+      skills: ["AI Integration", "Product Strategy", "System Redesign", "Educational Platform"],
+      status: "Completed",
+      year: "2025"
     },
     {
       icon: "🤝",
