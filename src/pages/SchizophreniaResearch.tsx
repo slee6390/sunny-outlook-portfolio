@@ -55,7 +55,7 @@ const SchizophreniaResearch = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">Project Overview</h2>
             <p className="text-lg leading-relaxed text-foreground mb-4">
-              Explored sensory perception in individuals with schizophrenia, 
+              NIH-funded study that explored sensory perception in individuals with schizophrenia, 
               designing participant-centered research methods to capture experiences 
               often overlooked in traditional studies.
             </p>
