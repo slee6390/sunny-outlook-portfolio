@@ -27,11 +27,11 @@ const Projects = () => {
       year: "2024"
     },
     {
-      icon: "📚",
-      title: "EduClarity Framework",
-      category: "Educational Strategy",
-      description: "A framework for transforming complex concepts into clear, accessible learning experiences",
-      skills: ["Curriculum Design", "Learning Strategy", "Content Architecture", "Knowledge Transfer"],
+      icon: "🎴",
+      title: "Bridging Generations",
+      category: "Product Strategy",
+      description: "An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups",
+      skills: ["UX Research", "Product Management", "Game-Based Learning", "Social Connection"],
       status: "Completed",
       year: "2023"
     },
@@ -114,6 +114,15 @@ const Projects = () => {
                       size="sm"
                       className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
                       onClick={() => navigate("/projects/schizophrenia-research")}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  ) : project.title === "Bridging Generations" ? (
+                    <Button 
+                      size="sm"
+                      className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
+                      onClick={() => navigate("/projects/bridging-generations")}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Project
