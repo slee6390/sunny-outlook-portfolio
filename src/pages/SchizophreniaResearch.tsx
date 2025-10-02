@@ -55,9 +55,9 @@ const SchizophreniaResearch = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">Project Overview</h2>
             <p className="text-lg leading-relaxed text-foreground mb-4">
-              Comprehensive research project examining schizophrenia through multiple methodologies 
-              and developing accessible digital resources to bridge the gap between research and 
-              public understanding.
+              Explored sensory perception in individuals with schizophrenia, 
+              designing participant-centered research methods to capture experiences 
+              often overlooked in traditional studies.
             </p>
           </Card>
 
@@ -65,8 +65,8 @@ const SchizophreniaResearch = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">My Role</h2>
             <p className="text-lg leading-relaxed text-foreground">
-              [Add description of your role in this project - what responsibilities you had, 
-              what you contributed, and what you learned from the experience]
+              Clinical Research Coordinator leading interview protocol design, data systems development, 
+              and research communication.
             </p>
           </Card>
 
@@ -86,9 +86,17 @@ const SchizophreniaResearch = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Quantitative Research</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Analyzed behavioral patterns and cognitive assessments using statistical methods 
+                  Analyzed behavioral patterns and cognitive assessments using statistical methods (R, SPSS)
                   to identify key indicators and trends in schizophrenia presentation and progression, 
                   contributing to evidence-based understanding of the condition.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Data Management</h3>
+                <p className="text-foreground/80 leading-relaxed">
+                  Built a flexible Excel and REDCap-based tracking system for participants, 
+                  schedules, and data integrity, while ensuring compliance with privacy standards.
                 </p>
               </div>
               
@@ -97,7 +105,7 @@ const SchizophreniaResearch = () => {
                 <p className="text-foreground/80 leading-relaxed">
                   Developed a comprehensive website to disseminate research findings in an accessible 
                   format, making complex neuroscience concepts understandable for diverse audiences 
-                  including patients, families, and healthcare providers.
+                  including researchers, healthcare providers, and patients.
                 </p>
               </div>
             </div>
@@ -110,29 +118,26 @@ const SchizophreniaResearch = () => {
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Published research findings contributing to the broader understanding of schizophrenia's 
-                  impact on cognitive and behavioral functions
+                  Preliminary findings presented at Harvard Psychiatry Research Day through an accessible, 
+                  visually clear poster.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Created accessible digital resources that bridge the gap between academic research 
-                  and public understanding
+                  Refined interview protocol that improved clarity, flow, and participant engagement.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Integrated multiple research methodologies to provide a comprehensive view of 
-                  schizophrenia from both quantitative and qualitative perspectives
+                  Robust, privacy-compliant data management system reducing errors and streamlining coordination.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Developed frameworks for making neuroscience research more accessible to 
-                  non-academic audiences
+                  Enhanced ability to communicate complex research to both academic and general audiences.
                 </p>
               </li>
             </ul>
@@ -143,10 +148,9 @@ const SchizophreniaResearch = () => {
             <h2 className="text-2xl font-bold mb-4 text-primary">Impact</h2>
             <p className="text-lg leading-relaxed text-foreground">
               This project exemplifies my commitment to making complex research accessible and 
-              meaningful. By combining rigorous research methodologies with thoughtful communication 
-              design, the work serves both the scientific community and those directly affected by 
-              schizophrenia, demonstrating how research can create real-world impact when translated 
-              into accessible formats.
+              meaningful. It demonstrated how empathy-driven, participant-centered methods can 
+              produce higher-quality data and stronger engagement, reinforcing my approach as a strategist 
+              who builds systems rooted in people’s real experiences.
             </p>
           </Card>
         </div>
