@@ -10,18 +10,18 @@ const Projects = () => {
   const projects = [
     {
       icon: "📊",
-      title: "Learning Analytics Intern - completed",
-      category: "Research & Analytics",
-      description: "A comprehensive platform for analyzing behavioral patterns and improving patient outcomes in neuroscience research",
-      skills: ["Data Analysis", "UX Research", "Healthcare Systems", "Patient Experience"],
-      status: "Live",
+      title: "Learning Analytics Intern",
+      category: "Data Analytics",
+      description: "Analyzed onboarding data and client feedback to streamline training, inform dashboard development, and improve healthcare client experiences",
+      skills: ["Data Analysis", "Product Strategy", "Healthcare Systems", "Patient Experience"],
+      status: "Completed",
       year: "2024"
     },
     {
       icon: "🎓",
       title: "Berkeley Student Portal",
       category: "Experience Design",
-      description: "Redesigned UC Berkeley’s student portal with AI-driven navigation to simplify workflows and better align with student needs.",
+      description: "Redesigned UC Berkeley’s student portal with AI-driven navigation to simplify workflows and better align with student needs",
       skills: ["AI Integration", "Product Strategy", "System Redesign", "Educational Platform"],
       status: "Completed",
       year: "2025"
