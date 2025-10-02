@@ -109,7 +109,16 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  {project.title === "Schizophrenia Research" ? (
+                  {project.title === "Learning Analytics Intern" ? (
+                    <Button 
+                      size="sm"
+                      className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
+                      onClick={() => navigate("/projects/learning-analytics")}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  ) : project.title === "Schizophrenia Research" ? (
                     <Button 
                       size="sm"
                       className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
