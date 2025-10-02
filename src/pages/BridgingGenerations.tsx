@@ -24,7 +24,7 @@ const BridgingGenerations = () => {
           {/* Project header */}
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-4">
-              <div className="text-6xl">🎴</div>
+              <div className="text-6xl">🫂</div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold bg-gradient-sunny bg-clip-text text-transparent">
                   Bridging Generations
