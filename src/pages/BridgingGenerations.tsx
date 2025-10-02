@@ -43,7 +43,7 @@ const BridgingGenerations = () => {
                 Product Management
               </Badge>
               <Badge variant="secondary" className="bg-primary-soft text-primary border-0">
-                Game-Based Learning
+                Crossfunctional Collaboration
               </Badge>
               <Badge variant="secondary" className="bg-primary-soft text-primary border-0">
                 Social Connection
@@ -87,7 +87,8 @@ const BridgingGenerations = () => {
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Product Management</h3>
                 <p className="text-foreground/80 leading-relaxed">
                   Defined the game’s structure and goals, prioritizing features that balanced playability with meaningful dialogue. 
-                  Coordinated development efforts to align mechanics with the broader objective of bridging age-based communication gaps.
+                  Coordinated development efforts across UI/UX designers and software engineers to align mechanics with the 
+                  broader objective of bridging age-based communication gaps.
                 </p>
               </div>
 
@@ -114,7 +115,7 @@ const BridgingGenerations = () => {
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                 Built a flexible framework that can be adapted for different family and cultural settings.
+                Demonstrated how cross-functional collaboration can shape a people-centered product from early concept to execution.
                 </p>
               </li>
               <li className="flex items-start">
