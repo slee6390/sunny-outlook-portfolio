@@ -127,6 +127,15 @@ const Projects = () => {
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Project
                     </Button>
+                  ) : project.title === "Berkeley Student Portal" ? (
+                    <Button 
+                      size="sm"
+                      className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
+                      onClick={() => navigate("/projects/berkeley-student-portal")}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
                   ) : (
                     <>
                       <Button 
