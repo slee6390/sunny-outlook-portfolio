@@ -30,7 +30,7 @@ const BridgingGenerations = () => {
                   Bridging Generations
                 </h1>
                 <p className="text-xl text-muted-foreground mt-2">
-                  Product Strategy • 2023
+                  Product Strategy • 2024
                 </p>
               </div>
             </div>
@@ -65,7 +65,8 @@ const BridgingGenerations = () => {
           <Card className="p-8 mb-8 shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">My Role</h2>
             <p className="text-lg leading-relaxed text-foreground">
-              [Add your role and responsibilities here]
+              Product strategist and researcher shaping the game’s vision, leading user research, 
+              and designing mechanics that foster authentic intergenerational connection.
             </p>
           </Card>
 
@@ -76,27 +77,25 @@ const BridgingGenerations = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">UX Research</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Conducted extensive user research across multiple age demographics to understand 
-                  communication patterns, preferences, and barriers between generations. Synthesized 
-                  insights into actionable design principles.
+                  Conducted interviews and workshops with family members across generations to 
+                  understand communication styles, values, and barriers. 
+                  Translated insights into design principles focused on empathy, storytelling, and accessibility.
                 </p>
               </div>
               
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Product Management</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Led product strategy from concept to completion, prioritizing features based on 
-                  user needs, feasibility, and impact. Coordinated cross-functional efforts to ensure 
-                  cohesive game mechanics and meaningful interactions.
+                  Defined the game’s structure and goals, prioritizing features that balanced playability with meaningful dialogue. 
+                  Coordinated development efforts to align mechanics with the broader objective of bridging age-based communication gaps.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Game Design</h3>
                 <p className="text-foreground/80 leading-relaxed">
-                  Designed engaging game mechanics that balance entertainment with educational value, 
-                  creating prompts and scenarios that encourage storytelling, shared experiences, 
-                  and authentic connection.
+                  Created prompts, scenarios, and mechanics that encouraged reflection, storytelling, and shared perspectives. 
+                  Designed a scalable framework adaptable to different cultural and family contexts.
                 </p>
               </div>
             </div>
@@ -109,22 +108,19 @@ const BridgingGenerations = () => {
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Successfully facilitated meaningful conversations between diverse age groups, 
-                  from teenagers to seniors.
+                  Designed a card game concept that uses narrative prompts to spark intergenerational dialogue.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Created a scalable game framework that can be adapted for different cultural 
-                  contexts and settings.
+                 Built a flexible framework that can be adapted for different family and cultural settings.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
                 <p className="text-foreground/80 leading-relaxed">
-                  Demonstrated the effectiveness of game-based learning in addressing social 
-                  isolation and communication gaps.
+                  Showcased the potential of game-based learning to address social isolation and communication barriers.
                 </p>
               </li>
             </ul>
@@ -134,10 +130,9 @@ const BridgingGenerations = () => {
           <Card className="p-8 bg-gradient-peach shadow-soft">
             <h2 className="text-2xl font-bold mb-4 text-primary">Impact</h2>
             <p className="text-lg leading-relaxed text-foreground">
-              This project showcases how thoughtful product design can address real social challenges. 
-              By combining UX research, strategic product thinking, and empathy-driven design, 
-              Bridging Generations created spaces for authentic connection and mutual learning 
-              across age divides.
+              This project demonstrated how people-centered product strategy and narrative design can address real social challenges. 
+              By combining research insights with empathy-driven frameworks, Bridging Generations created a foundation 
+              for future tools that encourage authentic connection and mutual understanding across age divides.
             </p>
           </Card>
         </div>
