@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import SchizophreniaResearch from "./pages/SchizophreniaResearch";
 import BridgingGenerations from "./pages/BridgingGenerations";
 import BerkeleyStudentPortal from "./pages/BerkeleyStudentPortal";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/projects/schizophrenia-research" element={<SchizophreniaResearch />} />
