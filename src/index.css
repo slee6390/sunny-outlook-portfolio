@@ -40,7 +40,7 @@ All colors MUST be HSL.
     --accent-peach: 15 65% 85%;
 
     /* Gentle contrast colors */
-    --destructive: 0 70% 65%;
+    --destructive: 180 60% 55%;
     --destructive-foreground: 0 0% 98%;
 
     /* Borders and inputs with warmth */
@@ -104,7 +104,7 @@ All colors MUST be HSL.
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 180 60% 45%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
