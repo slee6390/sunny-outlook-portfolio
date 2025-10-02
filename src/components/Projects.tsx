@@ -27,7 +27,7 @@ const Projects = () => {
       year: "2024"
     },
     {
-      icon: "🫂",
+      icon: "🤝",
       title: "Bridging Generations",
       category: "Product Strategy",
       description: "An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups",
