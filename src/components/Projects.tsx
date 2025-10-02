@@ -125,26 +125,6 @@ const Projects = () => {
               </Card>
             ))}
           </div>
-          
-          {/* Call-to-action section */}
-          <div className="mt-16 text-center">
-            <Card className="p-8 bg-gradient-peach shadow-warm">
-              <h3 className="text-2xl font-bold mb-4 text-primary">
-                Interested in Working Together?
-              </h3>
-              <p className="text-lg text-foreground/80 max-w-2xl mx-auto mb-6">
-                Each project represents a unique opportunity to create meaningful impact. 
-                Let's explore how we can collaborate on your next challenge.
-              </p>
-              <Button 
-                size="lg"
-                className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground font-semibold"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Start a Conversation
-              </Button>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
