@@ -30,7 +30,7 @@ const Projects = () => {
       icon: "🏫",
       title: "Academic Teaching",
       category: "Educational Design",
-      description: "Designed and delivered inclusive learning experiences, translating complex frameworks into clear, accessible content for diverse students",
+      description: "Designed and delivered inclusive learning experiences, translating complex frameworks into accessible content for diverse students",
       skills: ["Curriculum & Module Design", "Instructional Design", "Education", "Communication"],
       status: "Ongoing",
       year: "2020 - Present"

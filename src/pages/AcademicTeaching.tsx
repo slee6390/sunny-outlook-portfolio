@@ -31,8 +31,8 @@ const AcademicTeaching = () => {
               <Badge variant="secondary" className="bg-blue-100 text-blue-800">
                 Ongoing
               </Badge>
-              <Badge variant="secondary">Product Strategy</Badge>
-              <Badge variant="secondary">2024</Badge>
+              <Badge variant="secondary">Educational Design</Badge>
+              <Badge variant="secondary">2020 - Present</Badge>
             </div>
             <p className="text-xl text-foreground/80 leading-relaxed">
               Created tailored, inclusive learning experiences across diverse learners
