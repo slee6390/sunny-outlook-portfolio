@@ -127,11 +127,11 @@ const Projects = () => {
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Project
                     </Button>
-                  ) : project.title === "Bridging Generations" ? (
+                  ) : project.title === "Academic Teaching" ? (
                     <Button 
                       size="sm"
                       className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground"
-                      onClick={() => navigate("/projects/bridging-generations")}
+                      onClick={() => navigate("/projects/academic-teaching")}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Project

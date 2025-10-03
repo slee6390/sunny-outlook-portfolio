@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SchizophreniaResearch from "./pages/SchizophreniaResearch";
-import BridgingGenerations from "./pages/BridgingGenerations";
+import AcademicTeaching from "./pages/AcademicTeaching";
 import BerkeleyStudentPortal from "./pages/BerkeleyStudentPortal";
 import LearningAnalytics from "./pages/LearningAnalytics";
 import ScrollToTop from "./components/ScrollToTop";
@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/projects/learning-analytics" element={<LearningAnalytics />} />
           <Route path="/projects/schizophrenia-research" element={<SchizophreniaResearch />} />
-          <Route path="/projects/bridging-generations" element={<BridgingGenerations />} />
+          <Route path="/projects/academic-teaching" element={<AcademicTeaching />} />
           <Route path="/projects/berkeley-student-portal" element={<BerkeleyStudentPortal />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
