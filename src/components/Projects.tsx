@@ -78,6 +78,7 @@ const Projects = () => {
                           className={`text-xs ${
                             project.status === 'Live' ? 'bg-green-100 text-green-800' :
                             project.status === 'In Development' ? 'bg-blue-100 text-blue-800' :
+                            project.status === 'Ongoing' ? 'bg-blue-100 text-blue-800' :
                             project.status === 'Prototype' ? 'bg-yellow-100 text-yellow-800' :
                             'bg-gray-100 text-gray-800'
                           }`}
