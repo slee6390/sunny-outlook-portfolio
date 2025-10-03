@@ -22,14 +22,14 @@ const AcademicTeaching = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-5xl">🤝</span>
+              <span className="text-5xl">🏫</span>
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-sunny bg-clip-text text-transparent">
                 Teaching & Learning Design
               </h1>
             </div>
             <div className="flex gap-2 mb-6">
-              <Badge variant="secondary" className="bg-green-100 text-green-800">
-                Completed
+              <Badge variant="secondary" className="bg-blue-100 text-blue-800">
+                Ongoing
               </Badge>
               <Badge variant="secondary">Product Strategy</Badge>
               <Badge variant="secondary">2024</Badge>

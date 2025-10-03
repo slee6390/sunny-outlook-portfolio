@@ -27,12 +27,12 @@ const Projects = () => {
       year: "2025"
     },
     {
-      icon: "🤝",
+      icon: "🏫",
       title: "Academic Teaching",
       category: "Educational Design",
       description: "Designed and delivered inclusive learning experiences, translating complex frameworks into clear, accessible content for diverse students",
       skills: ["Curriculum & Module Design", "Instructional Design", "Education", "Communication"],
-      status: "Completed",
+      status: "Ongoing",
       year: "2020 - Present"
     },
     {
