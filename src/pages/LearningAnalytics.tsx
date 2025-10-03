@@ -82,7 +82,40 @@ const LearningAnalytics = () => {
             </Card>
 
             <Card className="p-8 shadow-soft">
-              <h2 className="text-2xl font-bold text-primary mb-4">Key Contributions</h2>
+              <h2 className="text-2xl font-bold text-primary mb-4">Research & Development</h2>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">
+                    Data Collection & Analysis
+                  </h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Gathered and analyzed onboarding metrics, user interaction data, and client feedback to identify 
+                    patterns and opportunities for improvement in the training process.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">
+                    Client Feedback Integration
+                  </h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Conducted feedback sessions with healthcare clients and synthesized insights to understand their 
+                    unique challenges and requirements when adopting the platform.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">
+                    Strategic Recommendations Development
+                  </h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Translated data insights and user feedback into actionable recommendations for both training 
+                    improvements and dashboard feature prioritization.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-8 shadow-soft">
+              <h2 className="text-2xl font-bold text-primary mb-4">Key Outcomes</h2>
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
@@ -104,7 +137,7 @@ const LearningAnalytics = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Client Experience Enhancement
+                    Enhanced Client Experience
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
                     Synthesized client feedback into actionable insights that informed product decisions and 
