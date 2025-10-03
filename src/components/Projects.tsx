@@ -29,11 +29,11 @@ const Projects = () => {
     {
       icon: "🤝",
       title: "Academic Teaching",
-      category: "Product Strategy",
-      description: "An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups",
-      skills: ["UX Research", "Product Management", "Game-Based Learning", "Social Connection"],
+      category: "Educational Design",
+      description: "Designed and delivered inclusive learning experiences, translating complex frameworks into clear, accessible content for diverse students",
+      skills: ["Curriculum & Module Design", "Instructional Design", "Education", "Communication"],
       status: "Completed",
-      year: "2024"
+      year: "2020 - Present"
     },
     {
       icon: "🧬",
