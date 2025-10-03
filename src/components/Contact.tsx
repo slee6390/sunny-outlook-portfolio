@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, MessageCircle, Sun } from "lucide-react";
+import { Mail, Sun } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="max-w-md mx-auto mb-12">
             <Card className="p-8 shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
               <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-3 text-primary">Email Me</h3>
@@ -31,22 +31,6 @@ const Contact = () => {
                 onClick={() => window.location.href = 'mailto:sunny@example.com'}
               >
                 Send an Email
-              </Button>
-            </Card>
-            
-            <Card className="p-8 shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
-              <MessageCircle className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-primary">Let's Chat</h3>
-              <p className="text-muted-foreground mb-4">
-                Whether it's about a project, collaboration, 
-                or exploring new opportunities together.
-              </p>
-              <Button 
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary-soft transition-gentle"
-                onClick={() => window.location.href = 'https://calendly.com/sunny'}
-              >
-                Schedule a Call
               </Button>
             </Card>
           </div>
