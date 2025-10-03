@@ -112,8 +112,15 @@ const LearningAnalytics = () => {
                     Streamlined Training Process
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Identified inefficiencies in the current onboarding workflow and proposed targeted improvements 
-                    that reduced training time while maintaining effectiveness.
+                    Identified high- and low-performing training modules, helping target areas for redesign and improvement.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">
+                    Workflow Efficiency
+                  </h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Reduced manual data review time by streamlining reporting workflows with clear, visual summaries.
                   </p>
                 </div>
                 <div>
@@ -121,17 +128,15 @@ const LearningAnalytics = () => {
                     Dashboard Development Insights
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Provided data-backed recommendations for dashboard features that would most benefit healthcare 
-                    professionals, prioritizing functionality based on user needs and behavior patterns.
+                    Delivered insights that directly shaped the internal dashboard used to monitor client onboarding at scale.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Enhanced Client Experience
+                    Manager Visibility
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Synthesized client feedback into actionable insights that informed product decisions and 
-                    improved overall user satisfaction with the platform.
+                    Improved visibility for training managers, enabling quicker responses to recurring onboarding issues.
                   </p>
                 </div>
               </div>

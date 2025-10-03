@@ -24,7 +24,7 @@ const AcademicTeaching = () => {
             <div className="flex items-center gap-3 mb-4">
               <span className="text-5xl">🤝</span>
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-sunny bg-clip-text text-transparent">
-                Academic Teaching
+                Teaching & Learning Design
               </h1>
             </div>
             <div className="flex gap-2 mb-6">
@@ -35,7 +35,7 @@ const AcademicTeaching = () => {
               <Badge variant="secondary">2024</Badge>
             </div>
             <p className="text-xl text-foreground/80 leading-relaxed">
-              An innovative card game designed to foster meaningful connections and knowledge sharing across different age groups
+              Created tailored, inclusive learning experiences across diverse learners
             </p>
           </div>
 
@@ -43,24 +43,16 @@ const AcademicTeaching = () => {
             <Card className="p-8 shadow-soft">
               <h2 className="text-2xl font-bold text-primary mb-4">Project Overview</h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                This project centered on creating an interactive card game that bridges generational divides 
-                through structured dialogue and shared storytelling. The game was designed to facilitate 
-                meaningful conversations between people of different age groups, fostering mutual understanding 
-                and knowledge transfer.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                By combining principles of game-based learning with user-centered design, the project aimed 
-                to address social isolation and communication barriers that often exist across generations.
+                Designed and delivered tailored learning experiences as a Graduate Student Instructor and private tutor, 
+                applying cognitive science principles to foster understanding, engagement, and growth across diverse learners.
               </p>
             </Card>
 
             <Card className="p-8 shadow-soft">
               <h2 className="text-2xl font-bold text-primary mb-4">My Role</h2>
               <p className="text-foreground/80 leading-relaxed">
-                As the product strategist and researcher, I shaped the game's vision and led the development 
-                process from concept to execution. This involved conducting extensive user research, designing 
-                game mechanics that foster authentic connection, and coordinating with cross-functional teams 
-                to bring the product to life.
+                Educator and facilitator creating accessible, impactful learning environments through 
+                curriculum design, one-on-one instruction, and student-centered feedback.
               </p>
             </Card>
 
@@ -68,28 +60,31 @@ const AcademicTeaching = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">Research & Development</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">UX Research</h3>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Curriculum & Module Design</h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Conducted interviews and workshops with family members across generations to understand 
-                    communication styles, values, and barriers. Translated insights into design principles 
-                    focused on empathy, storytelling, and accessibility.
+                   Developed and iterated weekly course modules at UC Berkeley, applying information-organization 
+                    frameworks to improve clarity and learning outcomes for information and psychology courses.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Product Management</h3>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Inclusive Teaching Methods</h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Defined the game's structure and goals, prioritizing features that balanced playability 
-                    with meaningful dialogue. Coordinated development efforts across UI/UX designers and 
-                    software engineers to align mechanics with the broader objective of bridging age-based 
-                    communication gaps.
+                    Translated complex frameworks into accessible explanations for a diverse class of 100+ students, 
+                    adapting instruction to varying levels of prior knowledge.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Game Design</h3>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Student Feedback & Iteration</h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Created prompts, scenarios, and mechanics that encouraged reflection, storytelling, and 
-                    shared perspectives. Designed a scalable framework adaptable to different cultural and 
-                    family contexts.
+                    Collected and synthesized feedback through surveys and discussions, implementing adjustments 
+                    that improved engagement and comprehension.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">Personalized Tutoring</h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Designed individualized study plans for students ranging from elementary school to adults preparing for civil exams. 
+                    Delivered targeted instruction in SAT, reading, grammar, and math, resulting in score improvements of up to 300 points.
                   </p>
                 </div>
               </div>
@@ -100,29 +95,26 @@ const AcademicTeaching = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Intergenerational Dialogue Framework
+                    Course Design
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Designed a card game concept that uses narrative prompts to spark meaningful conversations 
-                    across age groups, creating opportunities for mutual learning and understanding.
+                    Created and iterated weekly university modules that improved clarity and student learning outcomes.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Cross-Functional Collaboration
+                    Inclusive Teaching
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Demonstrated how collaborative product development can shape a people-centered solution 
-                    from early concept through to execution, involving designers, engineers, and researchers.
+                    Delivered clear, accessible instruction in both large university classes and individualized tutoring sessions.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Game-Based Learning Innovation
+                    Student Engagement
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Showcased the potential of game-based learning to address social challenges like isolation 
-                    and communication barriers, providing a scalable model for future social connection tools.
+                    Integrated feedback into teaching and tutoring strategies, strengthening trust and improving learner confidence.
                   </p>
                 </div>
               </div>
@@ -132,22 +124,22 @@ const AcademicTeaching = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">Skills Applied</h2>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  UX Research
+                  Curriculum & Module Design
                 </Badge>
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  Product Management
+                  Instructional Design
                 </Badge>
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  Game-Based Learning
+                  Student Feedback Analysis
                 </Badge>
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  Social Connection
+                  Large Group & Personalized Teaching
                 </Badge>
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  Cross-functional Collaboration
+                  Communication & Simplification
                 </Badge>
                 <Badge variant="secondary" className="bg-primary-soft text-primary">
-                  Narrative Design
+                  Cognitive Science Application
                 </Badge>
               </div>
             </Card>
@@ -155,14 +147,9 @@ const AcademicTeaching = () => {
             <Card className="p-8 shadow-soft">
               <h2 className="text-2xl font-bold text-primary mb-4">Impact</h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                This project demonstrated how people-centered product strategy and narrative design can address 
-                real social challenges. By combining research insights with empathy-driven frameworks, the game 
-                created a foundation for future tools that encourage authentic connection and mutual understanding 
-                across age divides.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                The work highlighted the power of game-based learning as a medium for social impact, showing 
-                how thoughtfully designed interactions can bridge generational gaps and foster meaningful dialogue.
+                This experience demonstrated the power of people-centered teaching and the importance of clarity 
+                in complex contexts. By blending research, pedagogy, and adaptability, I created learning environments 
+                that not only improved performance but also encouraged confidence, reflection, and growth.
               </p>
             </Card>
           </div>
