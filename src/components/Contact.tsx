@@ -18,18 +18,21 @@ const Contact = () => {
             </p>
           </div>
           
-          <div className="max-w-md mx-auto mb-12">
-            <Card className="p-8 shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
-              <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-primary">Email Me</h3>
-              <p className="text-muted-foreground mb-4">
+          <div className="max-w-2xl mx-auto mb-12">
+            <Card className="p-12 shadow-soft hover:shadow-warm transition-smooth glow-on-hover">
+              <Mail className="w-16 h-16 text-primary mx-auto mb-6" />
+              <h3 className="text-2xl font-semibold mb-4 text-primary">Email Me</h3>
+              <p className="text-lg text-muted-foreground mb-6 max-w-xl mx-auto">
                 The best way to start a conversation about strategy, 
-                collaboration, or just to say hello.
+                collaboration, or just to say hello. I'm always excited 
+                to connect with people working on meaningful projects.
               </p>
               <Button 
+                size="lg"
                 className="bg-gradient-sunny hover:shadow-glow transition-smooth text-foreground font-semibold"
                 onClick={() => window.location.href = 'mailto:sunny@example.com'}
               >
+                <Mail className="w-5 h-5 mr-2" />
                 Send an Email
               </Button>
             </Card>
