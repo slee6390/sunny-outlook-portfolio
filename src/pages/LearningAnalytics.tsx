@@ -43,14 +43,9 @@ const LearningAnalytics = () => {
             <Card className="p-8 shadow-soft">
               <h2 className="text-2xl font-bold text-primary mb-4">Project Overview</h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                As a Learning Analytics Intern, I worked at the intersection of data analysis and product strategy 
-                to enhance the onboarding experience for healthcare clients. This role required deep analysis of 
-                user behavior, feedback synthesis, and strategic recommendations to improve both training processes 
-                and product features.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                The project focused on leveraging data insights to create more effective onboarding pathways and 
-                inform the development of user-facing dashboards that would better serve healthcare professionals' needs.
+                Analyzed large-scale client onboarding data for eClinicalWorks’ EMR software, 
+                surfacing patterns in training engagement and informing the development of an automated 
+                analytics dashboard to streamline reporting for training teams.
               </p>
             </Card>
 
@@ -58,48 +53,34 @@ const LearningAnalytics = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">My Role</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-2">Data Analysis & Insights</h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Analyzed onboarding metrics and user interaction data to identify bottlenecks, pain points, 
-                    and opportunities for optimization in the training process.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-2">Client Feedback Synthesis</h3>
-                  <p className="text-foreground/80 leading-relaxed">
-                    Collected and synthesized feedback from healthcare clients to understand their unique needs 
-                    and challenges when adopting the platform.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-accent-foreground mb-2">Strategic Recommendations</h3>
-                  <p className="text-foreground/80 leading-relaxed">
-                    Developed actionable recommendations for both training improvements and dashboard features 
-                    based on data-driven insights and user feedback.
+                    Learning Analytics Intern focused on cleaning, analyzing, and visualizing complex 
+                    onboarding datasets to generate actionable insights and improve data workflows.
                   </p>
                 </div>
               </div>
             </Card>
 
             <Card className="p-8 shadow-soft">
-              <h2 className="text-2xl font-bold text-primary mb-4">Research & Development</h2>
+              <h2 className="text-2xl font-bold text-primary mb-4">Data & Analysis</h2>
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Data Collection & Analysis
+                    Data Cleaning & Analysis
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Gathered and analyzed onboarding metrics, user interaction data, and client feedback to identify 
-                    patterns and opportunities for improvement in the training process.
+                    Processed and organized 10,000+ rows of client onboarding data using Excel, 
+                    ensuring accuracy and consistency across datasets. Built pivot tables and performed statistical 
+                    analysis to identify trends in training attendance, milestone completion, and drop-off rates.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-accent-foreground mb-3">
-                    Client Feedback Integration
+                    Data Visualization
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    Conducted feedback sessions with healthcare clients and synthesized insights to understand their 
-                    unique challenges and requirements when adopting the platform.
+                   Created weekly reports and dashboards that consolidated data from thousands of clients, enabling 
+                    managers to track progress and detect recurring issues earlier.
                   </p>
                 </div>
                 <div>
@@ -109,6 +90,15 @@ const LearningAnalytics = () => {
                   <p className="text-foreground/80 leading-relaxed">
                     Translated data insights and user feedback into actionable recommendations for both training 
                     improvements and dashboard feature prioritization.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-accent-foreground mb-3">
+                    Cross-Functional Collaboration
+                  </h3>
+                  <p className="text-foreground/80 leading-relaxed">
+                    Partnered with the Data team to advise on an automated dashboard, providing input on data 
+                    sources, visualization types, and UI improvements to ensure usability for training teams.
                   </p>
                 </div>
               </div>
